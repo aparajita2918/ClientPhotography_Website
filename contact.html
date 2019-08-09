@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>The contact page</title>
+    <!-- the page for gathering contact info -->
+
+    <!-- link to the css  and js file-->
+    <link rel="stylesheet" href="Milis_photo.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!-- link to the accordian jquery------------------------------------------------------------------------------>
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+
+    <!--boxslider plugin ------------------------------------------------------------------------------------------>
+    <!-- bxslider plugin -------------------------------<script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>------------------------------------------------------------------>
+
+    <script src="js12/jquery.bxslider.min.js"></script>
+    <!--------------------------------------------------------------------------------------------------->
+    <script src="Mili's_photo.js"></script>
+
+
+
+
+</head>
+<body>
+<!-- The common navigation bar-->
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="blog.html">blog</a>
+
+</div>
+  <h2>I'd love to hear from you for queries about my freelancing services and feedback!</h2>
+
+<div class="container">
+
+    <!-- The form for collecting info -->
+
+    <form action="responsecontact.html" name="reservation_form" id="reservation_form">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname">
+        <label for="email">email address</label>
+        <input type="text" id="email" name="email">
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <!-- the submit button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</div>
+<div id="locate"></div>
+
+<!-- common footer across all pages -->
+<div class="footer">
+    <div id="cont"></div>
+</div>
+</body>
+</html>
