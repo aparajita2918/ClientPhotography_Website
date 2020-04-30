@@ -23,7 +23,7 @@
     "node-sass": "^4.9.3"
   },
   "dependencies": {
-    "jquery": "^1.12.4"
+    "jquery": "^3.5.0"
   },
   "repository": {
     "type": "git",
